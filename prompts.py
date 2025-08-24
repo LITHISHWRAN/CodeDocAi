@@ -72,3 +72,14 @@ You are CodeDoc AI. Debug the following user code:
 
 Explain bugs, suggest fixes, and provide an optimized version.
 """
+
+# Chain-of-Thought
+cot_prompt = """
+Debug the following code step by step. 
+First, identify possible errors → then analyze cause → then give fix → finally show corrected code.
+
+Code:
+def divide(a, b):
+    return a/b
+print(divide(10,0))
+"""
