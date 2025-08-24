@@ -26,6 +26,7 @@ def add_numbers(a, b)
     return a+b
 """
 
+
 # One-shot
 one_shot_prompt = """
 Example:
