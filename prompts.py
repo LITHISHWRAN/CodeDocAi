@@ -9,6 +9,7 @@ Format:
 3. Explanation
 Constraints: Keep answers simple and educational.
 """
+
 # User Prompt (example code to debug)
 user_prompt = """
 Here is my Python function. Please debug and explain:
@@ -24,3 +25,5 @@ Debug this code and explain the bug:
 def add_numbers(a, b)
     return a+b
 """
+
+
