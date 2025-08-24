@@ -41,3 +41,24 @@ Now debug this code:
 def divide(a, b)
     return a/b
 """
+
+# Multi-shot
+multi_shot_prompt = """
+Example 1:
+Buggy Code:
+def subtract(a, b)
+    return a-b
+Diagnosis: Missing colon
+Fix: Add ":"
+
+Example 2:
+Buggy Code:
+for i in range(5)
+    print(i)
+Diagnosis: Missing colon
+Fix: Add ":"
+
+Now debug this code:
+def square(x)
+    return x*x
+"""
