@@ -62,3 +62,14 @@ Now debug this code:
 def square(x)
     return x*x
 """
+
+
+# Dynamic Prompt
+def dynamic_prompt(user_code):
+    return f"""
+You are CodeDoc AI. Debug the following user code:
+
+{user_code}
+
+Explain bugs, suggest fixes, and provide an optimized version.
+"""
