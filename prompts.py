@@ -27,3 +27,17 @@ def add_numbers(a, b)
 """
 
 
+# One-shot
+one_shot_prompt = """
+Example:
+Buggy Code:
+def multiply(a, b)
+    return a*b
+
+Diagnosis: Missing colon
+Fix: Add ":" at end of function declaration
+
+Now debug this code:
+def divide(a, b)
+    return a/b
+"""
